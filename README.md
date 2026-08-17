@@ -25,9 +25,17 @@ without an app release, and nothing needs to agree with a hash.
 
 ## House style
 
-- One `##` heading per question, phrased as the user would ask it.
-- A general answer first, true across every platform.
-- Then `###` sections **only where the platforms actually differ** — omit them
-  when one answer covers everything, rather than writing three that repeat.
-- Platform sections are named for what the user recognises: `iPad / macOS`,
-  `Android`, `Web`.
+This is a LIST of questions, so each entry has to read as one entry — not as a
+page of its own. An answer that runs half a screen stops looking like an item in
+a list.
+
+- The page heading comes from `_config.yml` via the theme, exactly as on the
+  privacy and EULA sites. Do **not** write an `#` heading in `index.md`: it
+  renders as body text rather than the site heading and no longer matches them.
+- One `##` heading per question, phrased as the user would ask it. `##` is the
+  largest heading any entry uses.
+- A short answer first, true across every platform.
+- Where platforms differ, put the differences in **bullets inside that answer** —
+  not in subheadings, which make one question look like three. Bold the platform
+  name and keep each to a sentence or two: `iPad / macOS`, `Android`, `Web`.
+- Omit the bullets entirely when one answer covers every platform.
