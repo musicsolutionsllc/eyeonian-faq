@@ -2,6 +2,8 @@
 title: EyeOnian™ Frequently Asked Questions
 ---
 
+# EyeOnian™ Frequently Asked Questions
+
 ## Where are my EyeOnotes stored? And are the stored EyeOnotes shared across platforms?
 
 Your EyeOnotes are saved wherever you created them — on the device you were using, or in the browser you were using. They are **not** shared between platforms. An EyeOnote you save in the Android app will not appear in the web version or on your iPad, and one you save on your iPad will not appear on Android or the web. Each platform keeps its own set.
